@@ -9,33 +9,8 @@ A Python tool that aids the exploration of biases in Large Language Models.
 - Looped iterations to enable creation of response samples at different model temperatures
 - Visualization of results that allows for easy visual comparison of differences among LLM's.
 
-## Installation
-
-1. Clone the repository:
-git clone https://github.com/yourusername/llm-bias-assessment.git
-cd llm-bias-assessment
-
-2. Create a virtual environment and activate it:
-python3 -m venv venv
-source venv/bin/activate
-
-3. Install the dependencies:
-pip install -r requirements.txt
-
-## Usage
-
-To evaluate bias in your LLM, use the following command:
-python assess_bias.py --model your_model_name --input your_input_file.txt
-Example: python assess_bias.py --model gpt-3 --input sample_texts.txt
-
-## Examples
-
-Check out the `examples/` directory for sample scripts and datasets to get started.
-
 ## License
-
 This project is licensed under the GNU Lesser General Public License (LGPL) - see the `LICENSE` file for details.
 
 ## Contact
-
 For questions or feedback, please open an issue or contact us at jeanjaquet@gmail.com.
